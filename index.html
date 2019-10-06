@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chat page</title>
+        <script src="chat.js"></script>
+    </head>
+    <body>
+        <pre id="chat_messages">
+            user1: message1
+            user2: message2
+        </pre>
+        <form id="chat" name="chat" action="/" method="post">
+            <label for="chat_username">Пользователь</label>
+            <input id="chat_username" name="chat_username"/><br/>
+            <label for="chat_message">Сообщение</label>
+            <textarea id="chat_message" name="chat_message"/></textarea> <br/>
+            <input id="chat_submit" type="submit" />
+        </form>
+    </body>
+</html>
